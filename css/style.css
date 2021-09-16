@@ -7,5 +7,87 @@
 
 body{
     /* impostazioni debug */
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* css div centrato */
+.center{
+    width: 80%;
+    margin: 10px auto;
+    /* impo debug */
+    /* height: 500px;
+    background-color: blueviolet; */
+}
+
+/* header */
+.head-navbar{
+    width: 100%;
+    /* impo debug */
+    height: 50px;
+    background-color: hotpink;
+}
+
+/* section jambotron */
+.jambotron{
+    width: 100%;
+    margin: 10px 0;
+    /* impo debug */
+    height: 200px;
+    background-color: bisque;
+}
+
+/* main */
+.section-main{
+    width: 100%;
+    margin-bottom: 5px;
+    /* impo debug */
+    background-color: dodgerblue;
+    height: 250px;
+}
+
+.main-top{
+    margin-bottom: 5px;
+    /* impo debug */
+    height: 35px;
+    background-color: cadetblue;   
+}
+
+.container{
+    width: 100%;
+    /* impo debug */
+    /* background-color: yellow;
+    height: 100px; */
+}
+
+.widgets{
+    float: left;
+    width: 15%;
+
+    /* impo debug */
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.main-center{
+    float: left;
+    width: 66%;
+    margin: 0 2%;
+
+    /* impo debug */
+    height: 200px;
+    background-color: cadetblue;
+}
+
+/* footer */
+.section-footer{
+    width: 100%;
+
+    /* impo debug */
     background-color: blueviolet;
+    height: 25px;    
 }
