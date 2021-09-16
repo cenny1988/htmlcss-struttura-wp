@@ -26,7 +26,7 @@ body{
 
 /* header */
 .head-navbar{
-    width: 100%;
+    
     /* impo debug */
     height: 50px;
     background-color: hotpink;
@@ -34,7 +34,6 @@ body{
 
 /* section jambotron */
 .jambotron{
-    width: 100%;
     margin: 10px 0;
     /* impo debug */
     height: 200px;
@@ -43,7 +42,6 @@ body{
 
 /* main */
 .section-main{
-    width: 100%;
     margin-bottom: 5px;
     /* impo debug */
     padding-bottom: 10px;
@@ -58,8 +56,8 @@ body{
     background-color: cadetblue;   
 }
 
-.container{
-    width: 100%;
+.container-col{
+
     /* impo debug */
     /* background-color: yellow;
     height: 100px; */
